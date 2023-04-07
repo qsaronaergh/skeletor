@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    background-image: url("https://i.giphy.com/media/3o85xJY1FaLzqeoBGw/giphy.webp");
+    background-repeat: repeat;
+    display: flex;
+}
+
+.szkieletor {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    -webkit-animation: spin 6s linear infinite;
+    -moz-animation: spin 6s linear infinite;
+    animation: spin 6s linear infinite;
+}
+
+header {
+    display: flex;
+    margin-left: auto;
+}
+
+.header-img {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+    min-width: 50%;
+}
+
+.chuj {
+    position: fixed;
+    bottom: -30px;
+    right: 0;
+    width: 100%;
+    background-image: url("https://i.pinimg.com/originals/b7/21/34/b72134112b54864e4948865375ecbb11.gif");
+    background-repeat: repeat-x;
+    min-height: 272px;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotateY(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotateY(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+    }
+}
