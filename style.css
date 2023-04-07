@@ -38,6 +38,7 @@ header {
     transform: translate(-50%);
     z-index: 1;
     min-width: 30%;
+    max-width: 100%;
 }
 
 .chuj {
