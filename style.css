@@ -1,10 +1,12 @@
 body {
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
     background-color: #000;
     background-image: url("https://i.giphy.com/media/3o85xJY1FaLzqeoBGw/giphy.webp");
     background-repeat: repeat;
     display: flex;
+    flex-direction: column;
 }
 
 .szkieletor {
@@ -23,7 +25,7 @@ header {
 
 .kotek {
     position: absolute;
-    width:min(70%, 500px);
+    width: min(70%, 500px);
     left: 0;
     right: 0;
     top: 0;
@@ -49,6 +51,13 @@ header {
     background-image: url("https://i.pinimg.com/originals/b7/21/34/b72134112b54864e4948865375ecbb11.gif");
     background-repeat: repeat-x;
     min-height: 272px;
+}
+
+.schizo {
+    position: absolute;
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+    z-index: -1;
 }
 
 @-moz-keyframes spin {
