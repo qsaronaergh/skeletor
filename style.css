@@ -58,13 +58,6 @@ header {
     min-height: 272px;
 }
 
-.schizo {
-    position: absolute;
-    color:rgb(255, 255, 255);
-    font-weight: 900;
-    z-index: -1;
-}
-
 @-moz-keyframes spin {
     100% {
         -moz-transform: rotateY(360deg);
